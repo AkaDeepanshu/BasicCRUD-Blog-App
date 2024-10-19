@@ -3,10 +3,6 @@ const mongoose = require("mongoose");
 
 // route handler
 const postSchema = new mongoose.Schema({
-    user:{
-        type:String,
-        required:true,
-    },
     title:{
         type:String,
         required:true,
